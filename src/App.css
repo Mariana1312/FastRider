@@ -1,19 +1,27 @@
 
-.App {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-}
 
 *{
+  padding:0;
   margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #232323;
+}
+
+.dashboard{
+  max-width: 660px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 .appTitle{
   color: white;
-  font-family: "Open Sans";
   font-size: 10px;
   margin: 15px;
   text-align: center;
@@ -21,6 +29,8 @@
 
 .appContent{
   flex: 1;
+  overflow: hidden;
+
   margin: 20px
 }
 
@@ -29,29 +39,229 @@
   flex-direction: row;
 }
 
+.imageDiv{
+  background-color: #DCDCDC;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  margin: inherit;;
+}
+
+.imageSize{
+  width: 50px;
+  height: 50px;
+}
+
+
+.inputDiv{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#inputPin {
+  flex: 1;
+  height: 40px;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder{
+  color: #232323;
+}
+
+
 .ridesDiv{
-  background-color: darkcyan;
   flex: 1;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
 }
 
 .card{
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Open Sans';
   text-align: center;
-  color: grey;
+  color: #656565;
+  font-size: large;
+  margin: 10px;
 }
 
 
-@media screen and (max-width: 600px) {
+.rideBox{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 2.5px;
+  cursor: pointer;
+}
+
+
+.topDiv{
+  display: flex;
+  justify-content: flex-end;
+  color: #656565;
+  font-size: initial;
+}
+
+.middleDiv{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 15px;
+  text-align: center;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+.bottomDiv{
+  display: flex;
+  justify-content: space-evenly;
+  color: #656565;
+  margin-bottom: 10px;
+}
+
+.rideImage{
+  width: 25px;
+  margin-right: 2.5px;
+}
+
+.rightSide{
+  margin: 0;
+}
+
+.leftDiv{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.rightDiv{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.accessDiv{
+  background-color: #373737;
+  margin-top: 30px;
+}
+
+.acessNames{
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px
+}
+
+.leftName{
+  color: white;
+  flex: 1;
+  text-align: start;
+  font-size: medium;
+}
+
+.rightName{
+  color: #656565;
+  flex: 1;
+  text-align: end;
+  font-size: medium;
+}
+
+.submitButton{
+  background-color: #4c4c4b;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.returnTime{
+  display: flex;
+  flex-direction: column;
+  color: '#656565';
+  align-items: center;
+  margin: 15px;
+}
+
+.returnTime > h5 {
+  color: #656565;
+  font-size: medium;
+  margin: '10px';
+  margin-top: '20px';
+  margin-bottom: 'auto';
+}
+
+.returnTime > p{
+  color:white;
+  font-size: x-large;
+}
+
+.accessCode{
+  display: flex;
+  flex-direction: column;
+  color: '#656565';
+  align-items: center;
+}
+
+.accessCode > h5{
+  color: #656565;
+  font-size: medium;
+}
+
+.accessCode > p{
+  color: white;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+
+.accessContent{
+  height: 100vh;
+  background-color: #232323;
+  width: 80%;
+}
+
+.errorHandling{
+  color: red;
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
 
   .instructionDiv {
     flex-direction: column;    
   }
 
 
+  .submitButton{
+    background-color: #4c4c4b;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    transition: top 0.6s;
+    left: 0;
+    border: none;
+    color: white;
+    height: 70px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
+  .submitHidden{
+    bottom: -70px;
+  }
 
+  .ridesDiv{
+    margin-bottom: 50px;
+  }
 }
