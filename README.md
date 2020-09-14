@@ -2,6 +2,41 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### To run the app use: node server.js + npm start
 
+FastRider is an app for the The Jungle™ amusement park.
+The app allows which visitor to order his favorite facility ride in the park with his own pin code.
+
+In the main page the visitor can see all the rides in the park, the amount of tickets left for each ride and the time of the ride.
+
+The main page on desktop mode:
+
+      ![desktop1](https://user-images.githubusercontent.com/17874439/93070477-917b0d80-f687-11ea-8d78-170ed7c34d67.jpg)
+ 
+ and on nobile mode:
+ 
+      ![mobile1](https://user-images.githubusercontent.com/17874439/93069810-c2a70e00-f686-11ea-9f3b-faf36445411d.jpg)
+      
+The user enters his pin code and choosing a ride:
+
+      ![desktop2](https://user-images.githubusercontent.com/17874439/93070546-ab1c5500-f687-11ea-8a98-2d5d74e87d06.jpg)
+      
+On the mobile mode the Submit button appears after scrolling down through the rides:
+
+      ![mobile2](https://user-images.githubusercontent.com/17874439/93070754-f20a4a80-f687-11ea-9c14-cc0fe9be1554.jpg)
+      
+After pressing the Submit button the user will get a certificate for his ride with a unique access code:
+
+On desktop mode:
+
+      ![desktop3](https://user-images.githubusercontent.com/17874439/93071081-50cfc400-f688-11ea-9c16-67a2385ab831.jpg)
+      
+On mobile mode:
+
+      ![mobile3](https://user-images.githubusercontent.com/17874439/93071128-65ac5780-f688-11ea-8ada-a248c5b98f4e.jpg)
+      
+Now the visitor can enjoy his ride in the park:)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
