@@ -11,7 +11,7 @@ In the main page the visitor can see all the rides in the park, the amount of ti
 
    ![desktop1](https://user-images.githubusercontent.com/17874439/93070477-917b0d80-f687-11ea-8d78-170ed7c34d67.jpg)
  
- ### and on mobile mode:
+ ### On mobile mode:
  
    ![mobile1](https://user-images.githubusercontent.com/17874439/93069810-c2a70e00-f686-11ea-9f3b-faf36445411d.jpg)
       
