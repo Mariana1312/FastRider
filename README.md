@@ -23,7 +23,7 @@ In the main page the visitor can see all the rides in the park, the amount of ti
 
    ![mobile2](https://user-images.githubusercontent.com/17874439/93070754-f20a4a80-f687-11ea-9c14-cc0fe9be1554.jpg)
       
-## After pressing the Submit button the user will get a certificate for his ride with a unique access code:
+## After pressing the Submit button, the user will get a certificate for his ride with a unique access code:
 
 ### On desktop mode:
 
